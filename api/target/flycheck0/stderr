@@ -1,0 +1,8 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   0.214162226s  INFO prepare_target{force=false package_id=api v0.1.0 (/mnt/c/Users/USER/dev-stuff/rust/price-tracker/api) target="api"}: cargo::core::compiler::fingerprint: fingerprint dirty for api v0.1.0 (/mnt/c/Users/USER/dev-stuff/rust/price-tracker/api)/Check { test: false }/TargetInner { name: "api", doc: true, ..: with_path("/mnt/c/Users/USER/dev-stuff/rust/price-tracker/api/src/main.rs", Edition2024) }
+   0.214205026s  INFO prepare_target{force=false package_id=api v0.1.0 (/mnt/c/Users/USER/dev-stuff/rust/price-tracker/api) target="api"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   0.239578929s  INFO prepare_target{force=false package_id=api v0.1.0 (/mnt/c/Users/USER/dev-stuff/rust/price-tracker/api) target="api"}: cargo::core::compiler::fingerprint: fingerprint dirty for api v0.1.0 (/mnt/c/Users/USER/dev-stuff/rust/price-tracker/api)/Check { test: true }/TargetInner { name: "api", doc: true, ..: with_path("/mnt/c/Users/USER/dev-stuff/rust/price-tracker/api/src/main.rs", Edition2024) }
+   0.239646829s  INFO prepare_target{force=false package_id=api v0.1.0 (/mnt/c/Users/USER/dev-stuff/rust/price-tracker/api) target="api"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+    Checking api v0.1.0 (/mnt/c/Users/USER/dev-stuff/rust/price-tracker/api)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 3.09s

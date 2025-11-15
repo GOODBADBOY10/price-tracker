@@ -1,0 +1,9 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on shared package cache
+   0.219536626s  INFO prepare_target{force=false package_id=worker v0.1.0 (/mnt/c/Users/USER/dev-stuff/rust/price-tracker/worker) target="worker"}: cargo::core::compiler::fingerprint: fingerprint dirty for worker v0.1.0 (/mnt/c/Users/USER/dev-stuff/rust/price-tracker/worker)/Check { test: false }/TargetInner { name: "worker", doc: true, ..: with_path("/mnt/c/Users/USER/dev-stuff/rust/price-tracker/worker/src/main.rs", Edition2024) }
+   0.219577926s  INFO prepare_target{force=false package_id=worker v0.1.0 (/mnt/c/Users/USER/dev-stuff/rust/price-tracker/worker) target="worker"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   0.254562330s  INFO prepare_target{force=false package_id=worker v0.1.0 (/mnt/c/Users/USER/dev-stuff/rust/price-tracker/worker) target="worker"}: cargo::core::compiler::fingerprint: fingerprint dirty for worker v0.1.0 (/mnt/c/Users/USER/dev-stuff/rust/price-tracker/worker)/Check { test: true }/TargetInner { name: "worker", doc: true, ..: with_path("/mnt/c/Users/USER/dev-stuff/rust/price-tracker/worker/src/main.rs", Edition2024) }
+   0.254741230s  INFO prepare_target{force=false package_id=worker v0.1.0 (/mnt/c/Users/USER/dev-stuff/rust/price-tracker/worker) target="worker"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+    Checking worker v0.1.0 (/mnt/c/Users/USER/dev-stuff/rust/price-tracker/worker)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 3.09s
